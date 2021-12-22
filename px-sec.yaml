@@ -1,0 +1,9 @@
+spec:
+  security:
+    enabled: true
+    auth:
+      guestAccess: "Enabled"
+      selfsigned:
+        tokenLifetime: "1y"
+        issuer: "operator.portworx.io"
+        sharedSecret: "px-shared-secret"
